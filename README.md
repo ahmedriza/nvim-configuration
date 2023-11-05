@@ -25,6 +25,8 @@ gl: Show diagnostics in a floating window.
 [d: Move to the previous diagnostic in the current buffer.
 ]d: Move to the next diagnostic.
 
+Ctrl-O: jump back after going to a declaration
+
 # References
 
 * How to Configure Neovim to make it Amazing -- complete tutorial 

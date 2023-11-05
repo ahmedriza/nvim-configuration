@@ -1,10 +1,11 @@
-require("core.keymaps")
-
 -- Change the floating window colours
 vim.api.nvim_set_hl(0, 'FloatBorder', {bg='#3B4252', fg='#5E81AC'})
 vim.api.nvim_set_hl(0, 'NormalFloat', {bg='#3B4252'})
 vim.api.nvim_set_hl(0, 'TelescopeNormal', {bg='#3B4252'})
 vim.api.nvim_set_hl(0, 'TelescopeBorder', {bg='#3B4252'})
+
+require("core.settings")
+require("core.keymaps")
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -19,28 +20,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({
-  "folke/which-key.nvim",
-  "nvim-tree/nvim-tree.lua",
-  "nvim-tree/nvim-web-devicons",
-  "williamboman/mason.nvim",
-  "williamboman/mason-lspconfig.nvim",
-
-  {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
-  {'neovim/nvim-lspconfig'},
-  {'hrsh7th/cmp-nvim-lsp'},
-  {'hrsh7th/nvim-cmp'},
-  {'L3MON4D3/LuaSnip'},
-  -- "neovim/nvim-lspconfig",
-
-  "simrat39/rust-tools.nvim",
-  {
-  	'nvim-lualine/lualine.nvim',
-	dependencies = { 'nvim-tree/nvim-web-devicons' },
-  },
-  "WhoIsSethDaniel/lualine-lsp-progress.nvim",
-})
-
+require("lazy").setup("core.plugins")
 require("core.plugin_config")
 
 local rt = require("rust-tools")
