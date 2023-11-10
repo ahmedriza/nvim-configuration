@@ -15,4 +15,5 @@ return {
     dependencies = { 'nvim-tree/nvim-web-devicons' },
   },
   "WhoIsSethDaniel/lualine-lsp-progress.nvim",
+  "xiyaowong/virtcolumn.nvim",
 }
