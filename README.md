@@ -44,4 +44,8 @@ Ctrl-O: jump back after going to a declaration
 * nvim-tree
   https://github.com/nvim-tree/nvim-tree.lua
 
-* https://helix-editor.com/
+* Helix Editor
+  https://helix-editor.com/
+
+* virtcolumn.nvim
+  https://github.com/xiyaowong/virtcolumn.nvim
