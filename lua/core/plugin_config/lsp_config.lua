@@ -19,3 +19,4 @@ require("lspconfig").lua_ls.setup {}
 require("lspconfig").clangd.setup { on_attach = custom_attach }
 require("lspconfig").rust_analyzer.setup { on_attach = custom_attach }
 
+require("lspconfig").millet.setup {}
