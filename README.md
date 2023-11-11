@@ -27,7 +27,9 @@ gl: Show diagnostics in a floating window.
 zz: make current line centre.
 zt: move current line to top.
 
-Ctrl-O: jump back after going to a declaration
+Ctrl-o: jump back after going to a declaration
+Ctrl-i: reverse of Ctrl-o, i.e. jump to where we were
+
 
 # Notes
 
