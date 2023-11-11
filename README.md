@@ -29,7 +29,14 @@ zt: move current line to top.
 
 Ctrl-O: jump back after going to a declaration
 
+# Notes
+
+vim.opt acts like the :set command in vimscript
+
 # References
+
+* Everything you need to know to configure neovim using lua
+  https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/
 
 * How to Configure Neovim to make it Amazing -- complete tutorial 
   https://www.youtube.com/watch?v=J9yqSdvAKXY
