@@ -24,6 +24,7 @@ gs: Displays signature information about the symbol under the cursor in a floati
 gl: Show diagnostics in a floating window.
 [d: Move to the previous diagnostic in the current buffer.
 ]d: Move to the next diagnostic.
+zz: make current line centre.
 
 Ctrl-O: jump back after going to a declaration
 
