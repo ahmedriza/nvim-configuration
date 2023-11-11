@@ -30,6 +30,12 @@ zt: move current line to top.
 Ctrl-o: jump back after going to a declaration
 Ctrl-i: reverse of Ctrl-o, i.e. jump to where we were
 
+# Telescope key maps
+
+vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
+vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 # Notes
 
