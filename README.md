@@ -30,6 +30,8 @@ zt: move current line to top.
 Ctrl-o: jump back after going to a declaration
 Ctrl-i: reverse of Ctrl-o, i.e. jump to where we were
 
+Ctrl-G: show the name of current file in buffer
+
 # Telescope key maps
 
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
