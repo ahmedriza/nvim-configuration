@@ -5,6 +5,7 @@ require("mason-lspconfig").setup({
 
 local cmp = require('cmp')
 -- disable <C-n> and <C-p> as they interfere with native vim completions
+-- https://github.com/hrsh7th/nvim-cmp/issues/1680
 cmp.setup({
   mapping = cmp.mapping.preset.cmdline {
     ['<C-n>'] = cmp.config.disable,
