@@ -3,7 +3,16 @@ require("mason-lspconfig").setup({
   ensure_installed = { "lua_ls", "rust_analyzer", "clangd" }
 })
 
-local lsp_zero = require('lsp-zero')
+local cmp = require('cmp')
+-- disable <C-n> and <C-p> as they interfere with native vim completions
+cmp.setup({
+  mapping = cmp.mapping.preset.cmdline {
+    ['<C-n>'] = cmp.config.disable,
+    ['<C-p>'] = cmp.config.disable,
+  },
+})
+
+local lsp_zero = require('lsp-zero').preset({})
 
 lsp_zero.on_attach(function(client, bufnr)
   -- see :help lsp-zero-keybindings
