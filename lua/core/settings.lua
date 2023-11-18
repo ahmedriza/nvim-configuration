@@ -16,5 +16,5 @@ vim.opt.expandtab = true
 -- set number
 vim.wo.number = true
 
-vim.opt.colorcolumn = '100'
+vim.opt.colorcolumn = '80'
 vim.opt.title = true
