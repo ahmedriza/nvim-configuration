@@ -18,3 +18,5 @@ vim.wo.number = true
 
 vim.opt.colorcolumn = '80'
 vim.opt.title = true
+
+vim.g.loaded_matchparen = false

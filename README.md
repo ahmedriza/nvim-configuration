@@ -45,6 +45,9 @@ vim.opt acts like the :set command in vimscript
 
 # References
 
+* Enter math symbols in vim
+  https://vi.stackexchange.com/questions/39955/how-to-type-math-multipliction-symbol-%C3%97-in-insert-mode
+
 * Everything you need to know to configure neovim using lua
   https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/
 
