@@ -39,6 +39,34 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
+# Copying selection to Mac clipboard
+
+1. Start a visual select (using 'v' key)
+2. Enter the following key sequence: "+y
+
+That will copy the selection into the system clipboard
+
+# Indenting lines
+
+https://stackoverflow.com/questions/235839/indent-multiple-lines-quickly-in-vi
+
+Example: '5>>' will indent the current block 5 spaces
+
+Indent a block in visual mode:
+
+visual > or <   - indent block by sw (repeat with . )
+
+# Formatting json
+
+open the the json file in neovim.
+
+Then enter the command
+```
+:%!jq --indent 4 '.'
+```
+
+Note that the default spacing is 2 in jq
+
 # Notes
 
 vim.opt acts like the :set command in vimscript
