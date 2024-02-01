@@ -20,3 +20,5 @@ vim.opt.colorcolumn = '80'
 vim.opt.title = true
 
 vim.g.loaded_matchparen = false
+
+vim.cmd[[highlight Comment ctermfg=blue]]
