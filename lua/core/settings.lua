@@ -22,4 +22,4 @@ vim.opt.title = true
 vim.g.loaded_matchparen = false
 
 -- https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim
-vim.cmd[[highlight Comment ctermfg=167]]
+vim.cmd[[highlight Comment ctermfg=28]]
