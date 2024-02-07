@@ -1,6 +1,7 @@
 {
   "LuaSnip": { "branch": "master", "commit": "a4de64570b9620875c8ea04175cd07ed8e32ac99" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "44b16d11215dce86f253ce0c30949813c0a90765" },
+  "haskell-tools.nvim": { "branch": "master", "commit": "1b739495b2b3ed82d18d7de367cc2754f33d2c15" },
   "lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },
   "lsp-zero.nvim": { "branch": "v3.x", "commit": "bb874e8d832b66fa734b7b048d52eb9ed736bdcf" },
   "lualine-lsp-progress.nvim": { "branch": "master", "commit": "d76634e491076e45f465b31849d6ec320b436abb" },
