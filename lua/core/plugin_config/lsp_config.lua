@@ -27,6 +27,16 @@ end
 
 require("lspconfig").lua_ls.setup {}
 require("lspconfig").clangd.setup { on_attach = custom_attach }
-require("lspconfig").rust_analyzer.setup { on_attach = custom_attach }
+require("lspconfig").rust_analyzer.setup {
+  settings = {
+    ["rust-analyzer"] = {
+      diagnostics = {
+        enable = true,
+        disabled = {"unresolved-proc-macro"},
+      }
+    }
+  },
+	on_attach = custom_attach
+}
 
 require("lspconfig").millet.setup {}
