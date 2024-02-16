@@ -7,10 +7,17 @@ local cmp = require('cmp')
 -- disable <C-n> and <C-p> as they interfere with native vim completions
 -- https://github.com/hrsh7th/nvim-cmp/issues/1680
 cmp.setup({
+  snippet = {
+    expand = function(args)
+      require('luasnip').lsp_expand(args.body)
+    end,
+  },
+  --[[
   mapping = cmp.mapping.preset.cmdline {
     ['<C-n>'] = cmp.config.disable,
     ['<C-p>'] = cmp.config.disable,
   },
+  ]]
 })
 
 local lsp_zero = require('lsp-zero').preset({})
@@ -25,7 +32,10 @@ local custom_attach = function(client)
 	map('n','<F12>','<cmd>lua vim.lsp.buf.format()<CR>')
 end
 
-require("lspconfig").lua_ls.setup {}
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+require("lspconfig").lua_ls.setup {
+  capabilities = capabilities,
+}
 require("lspconfig").clangd.setup { on_attach = custom_attach }
 require("lspconfig").rust_analyzer.setup {
   settings = {

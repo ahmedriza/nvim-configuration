@@ -127,3 +127,7 @@ vim.opt acts like the :set command in vimscript
 
 * virtcolumn.nvim
   https://github.com/xiyaowong/virtcolumn.nvim
+
+* Setup nvim-lspconfig + nvim-cmp
+  https://vonheikemen.github.io/devlog/tools/setup-nvim-lspconfig-plus-nvim-cmp/
+
