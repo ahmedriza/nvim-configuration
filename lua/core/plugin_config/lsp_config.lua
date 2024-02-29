@@ -49,4 +49,6 @@ require("lspconfig").rust_analyzer.setup {
 	on_attach = custom_attach
 }
 
-require("lspconfig").millet.setup {}
+-- disable SML millet plugin.
+-- We use vim-better-sml
+-- require("lspconfig").millet.setup {}
