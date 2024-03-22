@@ -1,3 +1,8 @@
 -- vim.keymap.set("n", '<leader>t', ':SMLTypeQuery<CR>')
 vim.keymap.set("n", 'K', ':SMLTypeQuery<CR>')
 vim.keymap.set("n", 'gd', ':SMLJumpToDef<CR>')
+vim.keymap.set("n", '<leader>is', ':SMLReplStart<CR>')
+vim.keymap.set("n", '<leader>ik', ':SMLReplStop<CR>')
+vim.keymap.set("n", '<leader>ib', ':SMLReplBuild<CR>')
+vim.keymap.set("n", '<leader>iu', ':SMLReplUse<CR>')
+vim.keymap.set("n", '<leader>ic', ':SMLReplClear<CR>')
