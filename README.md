@@ -131,3 +131,7 @@ vim.opt acts like the :set command in vimscript
 * Setup nvim-lspconfig + nvim-cmp
   https://vonheikemen.github.io/devlog/tools/setup-nvim-lspconfig-plus-nvim-cmp/
 
+* Robots Are After Your Job: Exploring Generative AI for C++ - Andrei Alexandrescu - CppCon 2023 
+  Not specific about SML, but an interesting talk
+  https://www.youtube.com/watch?v=J48YTbdJNNc&list=TLPQMjkwMzIwMjSh7hHXWUAyzA&index=6
+
