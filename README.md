@@ -5,6 +5,16 @@ From nvim, invoke
 :LspRestart
 ```
 
+# Updating plugins
+
+Invoke 
+
+```
+:Lazy
+```
+
+from nvim.  Then presss `U` to update plugins.
+
 # lsp-zero 
 
 https://github.com/VonHeikemen/lsp-zero.nvim
@@ -135,3 +145,5 @@ vim.opt acts like the :set command in vimscript
   Not specific about SML, but an interesting talk
   https://www.youtube.com/watch?v=J48YTbdJNNc&list=TLPQMjkwMzIwMjSh7hHXWUAyzA&index=6
 
+* LESVIM
+  https://github.com/MiaadTeam/lesvim
