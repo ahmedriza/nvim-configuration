@@ -52,3 +52,5 @@ require("lspconfig").rust_analyzer.setup {
 -- disable SML millet plugin.
 -- We use vim-better-sml
 -- require("lspconfig").millet.setup {}
+
+require("lspconfig").tsserver.setup {}
