@@ -53,4 +53,5 @@ require("lspconfig").rust_analyzer.setup {
 -- We use vim-better-sml
 -- require("lspconfig").millet.setup {}
 
-require("lspconfig").tsserver.setup {}
+require("lspconfig").ts_ls.setup {}
+require("lspconfig").tailwindcss.setup {}
