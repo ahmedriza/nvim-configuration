@@ -55,3 +55,4 @@ require("lspconfig").rust_analyzer.setup {
 
 require("lspconfig").ts_ls.setup {}
 require("lspconfig").tailwindcss.setup {}
+require("lspconfig").svelte.setup {}
