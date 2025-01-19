@@ -25,11 +25,11 @@ local lsp_zero = require('lsp-zero').preset({})
 lsp_zero.on_attach(function(client, bufnr)
   -- see :help lsp-zero-keybindings
   -- to learn the available actions
-  lsp_zero.default_keymaps({buffer = bufnr})
+  lsp_zero.default_keymaps({ buffer = bufnr })
 end)
 
 local custom_attach = function(client)
-	map('n','<F12>','<cmd>lua vim.lsp.buf.format()<CR>')
+  map('n', '<F12>', '<cmd>lua vim.lsp.buf.format()<CR>')
 end
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
@@ -42,11 +42,11 @@ require("lspconfig").rust_analyzer.setup {
     ["rust-analyzer"] = {
       diagnostics = {
         enable = true,
-        disabled = {"unresolved-proc-macro"},
+        disabled = { "unresolved-proc-macro" },
       }
     }
   },
-	on_attach = custom_attach
+  on_attach = custom_attach
 }
 
 -- disable SML millet plugin.
@@ -54,5 +54,5 @@ require("lspconfig").rust_analyzer.setup {
 -- require("lspconfig").millet.setup {}
 
 require("lspconfig").ts_ls.setup {}
-require("lspconfig").tailwindcss.setup {}
+require("lspconfig").tailwindcss.setup { }
 require("lspconfig").svelte.setup {}

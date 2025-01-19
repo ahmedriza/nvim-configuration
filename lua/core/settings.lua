@@ -23,3 +23,5 @@ vim.g.loaded_matchparen = false
 
 -- https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim
 vim.cmd[[highlight Comment ctermfg=28]]
+
+vim.g.neoformat_try_node_exe = 1
