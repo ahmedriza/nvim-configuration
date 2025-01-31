@@ -13,6 +13,8 @@ vim.opt.shiftwidth = 2
 vim.opt.shiftround = true
 vim.opt.expandtab = true
 
+vim.opt.clipboard = 'unnamedplus'
+
 -- set number
 vim.wo.number = true
 
