@@ -27,7 +27,7 @@ vim.g.neoformat_try_node_exe = 1
 Now, in a buffer of, say, typescript invoke ':Neoformat'
 
 This can be automated by creating language specific configuration files in 
-`/work/nvim-configuration/lua/core/ftplugin/`.  Add the following two 
+`/work/nvim-configuration/after/ftplugin/`.  Add the following two 
 files to that directory: typescript.lua and typescriptreact.lua, with contents:
 
 ```
