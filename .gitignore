@@ -24,3 +24,4 @@ perf.data
 **/*.bkp
 **/*.dtmp
 logs
+.DS_Store

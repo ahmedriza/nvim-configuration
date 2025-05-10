@@ -10,7 +10,7 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 vim.keymap.set('n', '<leader><leader>', builtin.buffers, {})
 
--- vim.keymap.set('n', 'gK', vim.lsp.buf.references, {})
+vim.keymap.set('n', 'gK', vim.lsp.buf.references, {})
 
 -- centre screen after 'j' and 'k'
 vim.keymap.set('n', 'j', 'jzz')

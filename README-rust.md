@@ -21,3 +21,6 @@ Also check the nvim state in
 ```
 ls -latr ~/.local/state/nvim/
 ```
+
+The binary is in `~/.local/share/nvim/mason/bin/rust-analyzer`. This may be a symlink.
+In order to use the rustup installed version of rust-anlayzer, update that link.
