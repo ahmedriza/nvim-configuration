@@ -1,3 +1,7 @@
+vim.cmd [[colorscheme vim]]
+
+vim.opt.cursorlineopt='number'
+
 -- Change the floating window colours
 vim.api.nvim_set_hl(0, 'FloatBorder', {bg='#3B4252', fg='#5E81AC'})
 vim.api.nvim_set_hl(0, 'NormalFloat', {bg='#3B4252'})
@@ -19,6 +23,9 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+vim.lsp.enable('rust_analyzer')
+
 require("lazy").setup("core.plugins")
 require("core.plugin_config")
 require("core.keymaps")
+require('lualine').setup()

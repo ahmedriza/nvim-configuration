@@ -5,3 +5,5 @@ require'lualine'.setup{
     }
   }
 }
+
+require('lsp-progress').setup()

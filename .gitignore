@@ -25,3 +25,4 @@ perf.data
 **/*.dtmp
 logs
 .DS_Store
+node_modules/
