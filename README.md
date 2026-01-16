@@ -113,6 +113,17 @@ vim.opt acts like the :set command in vimscript
 
 Add the colour scheme file to the 'colors' directory
 
+To find out what a current colour is assigned to a particular `feature` in nvim, we
+can do a query like this:
+
+```
+:verbose hi Normal
+```
+Example output:
+```
+Normal xxx ctermfg=51 ctermbg=16 guifg=#00ffff guibg=#000000
+```
+
 # References
 
 * Enter math symbols in vim
