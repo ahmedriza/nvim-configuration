@@ -23,9 +23,9 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-vim.lsp.enable('rust_analyzer')
-
 require("lazy").setup("core.plugins")
 require("core.plugin_config")
 require("core.keymaps")
 require('lualine').setup()
+
+vim.lsp.enable('rust_analyzer')

@@ -109,6 +109,10 @@ To access all currently defined registers type
 
 vim.opt acts like the :set command in vimscript
 
+# Adding a colour scheme
+
+Add the colour scheme file to the 'colors' directory
+
 # References
 
 * Enter math symbols in vim
