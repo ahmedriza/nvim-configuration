@@ -1,4 +1,4 @@
-vim.cmd [[colorscheme vim]]
+vim.cmd [[colorscheme ahmed]]
 
 vim.opt.cursorlineopt='number'
 
