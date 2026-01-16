@@ -29,3 +29,10 @@ require("core.keymaps")
 require('lualine').setup()
 
 vim.lsp.enable('rust_analyzer')
+
+-- set global variable g.copilot_proxy if https_proxy env var is set
+proxy = vim.env.https_proxy
+if proxy then
+  -- print("https_proxy is set: ", proxy)
+  vim.g.copilot_proxy = proxy
+end
