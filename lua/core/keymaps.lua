@@ -15,3 +15,6 @@ vim.keymap.set('n', 'gK', vim.lsp.buf.references, {})
 -- centre screen after 'j' and 'k'
 vim.keymap.set('n', 'j', 'jzz')
 vim.keymap.set('n', 'k', 'kzz')
+
+-- find current file in NvimTree
+vim.keymap.set('n', '<leader>tf', ':NvimTreeFindFile<CR>', { noremap = true, silent = true })
