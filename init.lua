@@ -36,3 +36,10 @@ if proxy then
   -- print("https_proxy is set: ", proxy)
   vim.g.copilot_proxy = proxy
 end
+
+-- vim diagnostic config
+vim.diagnostic.config({
+  --virtual_text = true
+  virtual_lines = true
+  --underline = true
+})

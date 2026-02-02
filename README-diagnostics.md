@@ -16,3 +16,13 @@ These diagnostic keymaps are created unconditionally when Nvim starts:
 One of the most useful is:  <C-w>d, that is Control-w then 'd' character.
 This will show the diagnostic at cursor.
 
+Example diagnostic config (in `init.lua`)
+
+```
+-- vim diagnostic config
+vim.diagnostic.config({
+  --virtual_text = true
+  virtual_lines = true
+  --underline = true
+})
+```
