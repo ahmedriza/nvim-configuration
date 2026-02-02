@@ -124,6 +124,11 @@ Example output:
 Normal xxx ctermfg=51 ctermbg=16 guifg=#00ffff guibg=#000000
 ```
 
+# Completions
+
+For Neovim 0.11 onwards, use https://github.com/saghen/blink.cmp.  The plugin 
+config can be found in `lua/core/plugins/completions.lua`.
+
 # References
 
 * Enter math symbols in vim
