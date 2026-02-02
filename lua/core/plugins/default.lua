@@ -2,6 +2,7 @@ return {
   "folke/which-key.nvim",
   "nvim-tree/nvim-tree.lua",
   "nvim-tree/nvim-web-devicons",
+  --
   -- "williamboman/mason.nvim",
   -- "williamboman/mason-lspconfig.nvim",
   -- {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
@@ -14,6 +15,7 @@ return {
   -- {'hrsh7th/cmp-path'},
   -- {'hrsh7th/cmp-cmdline'},
   -- {'hrsh7th/nvim-cmp'},
+  --
   {
     "L3MON4D3/LuaSnip",
     -- follow latest release.
@@ -21,6 +23,7 @@ return {
     -- install jsregexp (optional!).
     build = "make install_jsregexp"
   },
+  --
   -- {'saadparwaiz1/cmp_luasnip'},
   --
   -- End 
@@ -31,6 +34,7 @@ return {
   --   version = '^6', -- Recommended
   --   lazy = false, -- This plugin is already lazy
   -- },
+  --
   --
   {
     'nvim-lualine/lualine.nvim',
