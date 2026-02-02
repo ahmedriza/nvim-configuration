@@ -13,6 +13,15 @@ vim.keymap.set(
 
 vim.keymap.set(
   "n",
+  "<F4>",
+  function()
+    vim.lsp.buf.code_action()
+  end,
+  { silent = true, buffer = bufnr }
+)
+
+vim.keymap.set(
+  "n",
   "gd",
   function()
     vim.lsp.buf.definition()
