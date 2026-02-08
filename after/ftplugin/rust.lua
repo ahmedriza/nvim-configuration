@@ -22,6 +22,15 @@ vim.keymap.set(
 
 vim.keymap.set(
   "n",
+  "<F2>",
+  function()
+    vim.lsp.buf.rename()
+  end,
+  { silent = true, buffer = bufnr }
+)
+
+vim.keymap.set(
+  "n",
   "gd",
   function()
     vim.lsp.buf.definition()
