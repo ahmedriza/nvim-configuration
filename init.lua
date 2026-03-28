@@ -30,6 +30,7 @@ require('lualine').setup()
 
 vim.lsp.enable('rust_analyzer')
 vim.lsp.enable('tailwindcss')
+vim.lsp.enable('clangd')
 
 -- set global variable g.copilot_proxy if https_proxy env var is set
 proxy = vim.env.https_proxy
