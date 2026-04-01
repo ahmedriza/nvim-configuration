@@ -41,7 +41,7 @@ end
 
 -- vim diagnostic config
 vim.diagnostic.config({
-  --virtual_text = true
-  virtual_lines = true
+  virtual_text = true
+  --virtual_lines = true
   --underline = true
 })
