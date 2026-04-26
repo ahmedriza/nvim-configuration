@@ -129,6 +129,14 @@ Normal xxx ctermfg=51 ctermbg=16 guifg=#00ffff guibg=#000000
 For Neovim 0.11 onwards, use https://github.com/saghen/blink.cmp.  The plugin 
 config can be found in `lua/core/plugins/completions.lua`.
 
+# Check LSP 
+
+```
+:checkhealth vim.lsp
+```
+
+To start, restart etc, enter ":lsp" followed by tab to see the available arguments
+
 # References
 
 * Enter math symbols in vim
