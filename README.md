@@ -129,6 +129,9 @@ Normal xxx ctermfg=51 ctermbg=16 guifg=#00ffff guibg=#000000
 For Neovim 0.11 onwards, use https://github.com/saghen/blink.cmp.  The plugin 
 config can be found in `lua/core/plugins/completions.lua`.
 
+When a completion buffer comes up, we can cycle through items with Control-n and Control-p.
+To select the highlighted item, use Control-y.  Think of 'y' as yes.
+
 # Check LSP 
 
 ```
